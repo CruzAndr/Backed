@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "prisma generate",
     "start": "node api/index.js"
@@ -12,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^6.8.2",
+    "@prisma/client": "^6.10.1",
     "backend": "file:",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
@@ -22,6 +21,6 @@
     "mysql2": "^3.14.1"
   },
   "devDependencies": {
-    "prisma": "^6.8.2"
+    "prisma": "^6.10.1"
   }
 }
